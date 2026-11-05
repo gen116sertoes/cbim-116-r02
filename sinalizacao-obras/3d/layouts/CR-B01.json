@@ -1,0 +1,585 @@
+{
+ "codigo": "CR-B01",
+ "titulo": "Serviço de curta duração no acostamento ou recuo, pista simples e dupla",
+ "base": null,
+ "situacao": {
+  "codigo": "CR-B01",
+  "titulo": "Serviço de curta duração no acostamento ou recuo, pista simples e dupla",
+  "via": "simples",
+  "faixas_por_sentido": 1,
+  "largura_faixa_m": 3.6,
+  "acostamento_m": 2.5,
+  "v_kmh": 80,
+  "ocupacao": "acostamento",
+  "extensao_trabalho_m": 100,
+  "tipo": "curta",
+  "oae": null,
+  "controle": null,
+  "noturno": false,
+  "amc": null,
+  "canalizador": null,
+  "invasao_faixa_m": 0.0,
+  "pedestres": false,
+  "ramo": null,
+  "ambos_sentidos": false,
+  "rotulo_tipo": null,
+  "pmv": false,
+  "trabalho_noturno": false,
+  "duracao_dias": null,
+  "v_obra_kmh": null,
+  "curva": null,
+  "faixas_sentido_oposto": null
+ },
+ "params": {
+  "presinalizacao_m": [
+   1500,
+   1000,
+   500,
+   400,
+   300,
+   200,
+   100
+  ],
+  "transicao_m": 150.0,
+  "protecao_long_m": 60.0,
+  "protecao_lat_m": 0.6,
+  "espac_cones_transicao_m": 10.0,
+  "espac_cones_trabalho_m": 10.0,
+  "pare_siga_ext_max_m": 2000.0,
+  "fonte": "pré-sinalização 1500 m: IPR 738 item 3.1.1 p. 41 (fluxo obrigado a parar ou desviado); passo das placas: MBST VII Projeto-Tipo rural 4 p. 163 e item 6.7 p. 46; transição: IPR 738 item 3.1.2 p. 41 e MBST VII item 5.2.2 p. 25 (via rural), o maior dos dois; proteção longitudinal: MBST VII item 5.2.3 p. 27 (mín. 60 m rural); 90-110 km/h: ARTERIS MAN 555 p. 9 (100 m), mais exigente; proteção lateral: IPR 738 item 5.7 p. 82 (afastamento 0,30 a 0,60 m); cones: MBST VII Tabela 9-1 p. 94 (= MAN-OPV-001 Tabela 5.2); pare e siga: MAN-OPV-001 'Extensão das Interdições' (2,0 km pista simples), rádio obrigatório MBST VII item 11.2 p. 128"
+ },
+ "zonas": [
+  [
+   "presinalizacao",
+   -610.0,
+   -110.0
+  ],
+  [
+   "transicao",
+   -110.0,
+   -60.0
+  ],
+  [
+   "protecao",
+   -60.0,
+   0.0
+  ],
+  [
+   "trabalho",
+   0.0,
+   100.0
+  ],
+  [
+   "saida",
+   100.0,
+   160.0
+  ]
+ ],
+ "itens": [
+  {
+   "codigo": "A-24",
+   "x_m": -610.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:500",
+   "x_m": -610.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 710.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:500",
+   "x_m": 710.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -510.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:400",
+   "x_m": -510.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 610.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:400",
+   "x_m": 610.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-7",
+   "x_m": -410.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-7",
+   "x_m": 510.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": -310.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": 410.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -210.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 310.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": 160.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "fim",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:80",
+   "x_m": 260.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "retorno",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": -60.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "fim-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:80",
+   "x_m": -160.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "retorno-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -110.0,
+   "y_m": -6.1,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -100.0,
+   "y_m": -5.6,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -90.0,
+   "y_m": -5.1,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -80.0,
+   "y_m": -4.6,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -70.0,
+   "y_m": -4.1,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -60.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -60.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -50.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -40.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -30.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -20.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -10.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 0.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 10.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 20.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 30.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 40.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 50.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 60.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 70.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 80.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 90.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 100.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 110.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 115.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 115.0,
+   "y_m": -3.6,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 125.0,
+   "y_m": -5.266666666666667,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 130.0,
+   "y_m": -6.1,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  }
+ ],
+ "pre_x": [
+  -610.0,
+  -510.0,
+  -410.0,
+  -310.0,
+  -210.0
+ ],
+ "pre_oposta_x": [
+  710.0,
+  610.0,
+  510.0,
+  410.0,
+  310.0
+ ],
+ "exige_radio": false,
+ "notas": [],
+ "geom": {
+  "c": 0.0,
+  "n": 1,
+  "n_op": 1,
+  "w": 3.6,
+  "a": 2.5,
+  "borda_dir": -6.1,
+  "borda_pista": -3.6,
+  "filas": [],
+  "ramos": [],
+  "oc_hi": -3.6,
+  "oc_lo": -6.1,
+  "lado_fechado": "dir",
+  "y_cone": -3.6,
+  "y_ini_taper": -6.1,
+  "trab": [
+   -4.2,
+   -6.1
+  ],
+  "borda_ext": -6.1
+ },
+ "quantidades": {
+  "A-24": 6,
+  "CONE": 28,
+  "FIM-OBRAS": 2,
+  "INFO-DIST": 4,
+  "R-19": 4,
+  "R-7": 2
+ }
+}

@@ -1,0 +1,828 @@
+{
+ "codigo": "CR-C01",
+ "titulo": "Estreitamento de pista simples sem bloqueio de sentido (faixa reduzida)",
+ "base": null,
+ "situacao": {
+  "codigo": "CR-C01",
+  "titulo": "Estreitamento de pista simples sem bloqueio de sentido (faixa reduzida)",
+  "via": "simples",
+  "faixas_por_sentido": 1,
+  "largura_faixa_m": 3.6,
+  "acostamento_m": 2.5,
+  "v_kmh": 80,
+  "ocupacao": "acostamento",
+  "extensao_trabalho_m": 200,
+  "tipo": "curta",
+  "oae": null,
+  "controle": null,
+  "noturno": false,
+  "amc": null,
+  "canalizador": null,
+  "invasao_faixa_m": 0.5,
+  "pedestres": false,
+  "ramo": null,
+  "ambos_sentidos": false,
+  "rotulo_tipo": null,
+  "pmv": false,
+  "trabalho_noturno": false,
+  "duracao_dias": null,
+  "v_obra_kmh": null,
+  "curva": null,
+  "faixas_sentido_oposto": null
+ },
+ "params": {
+  "presinalizacao_m": [
+   1500,
+   1000,
+   500,
+   400,
+   300,
+   200,
+   100
+  ],
+  "transicao_m": 150.0,
+  "protecao_long_m": 60.0,
+  "protecao_lat_m": 0.6,
+  "espac_cones_transicao_m": 10.0,
+  "espac_cones_trabalho_m": 10.0,
+  "pare_siga_ext_max_m": 2000.0,
+  "fonte": "pré-sinalização 1500 m: IPR 738 item 3.1.1 p. 41 (fluxo obrigado a parar ou desviado); passo das placas: MBST VII Projeto-Tipo rural 4 p. 163 e item 6.7 p. 46; transição: IPR 738 item 3.1.2 p. 41 e MBST VII item 5.2.2 p. 25 (via rural), o maior dos dois; proteção longitudinal: MBST VII item 5.2.3 p. 27 (mín. 60 m rural); 90-110 km/h: ARTERIS MAN 555 p. 9 (100 m), mais exigente; proteção lateral: IPR 738 item 5.7 p. 82 (afastamento 0,30 a 0,60 m); cones: MBST VII Tabela 9-1 p. 94 (= MAN-OPV-001 Tabela 5.2); pare e siga: MAN-OPV-001 'Extensão das Interdições' (2,0 km pista simples), rádio obrigatório MBST VII item 11.2 p. 128"
+ },
+ "zonas": [
+  [
+   "presinalizacao",
+   -1210.0,
+   -210.0
+  ],
+  [
+   "transicao",
+   -210.0,
+   -60.0
+  ],
+  [
+   "protecao",
+   -60.0,
+   0.0
+  ],
+  [
+   "trabalho",
+   0.0,
+   200.0
+  ],
+  [
+   "saida",
+   200.0,
+   260.0
+  ]
+ ],
+ "itens": [
+  {
+   "codigo": "A-24",
+   "x_m": -1210.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1000",
+   "x_m": -1210.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 1410.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1000",
+   "x_m": 1410.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -710.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:500",
+   "x_m": -710.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 910.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:500",
+   "x_m": 910.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-21c",
+   "x_m": -610.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:400",
+   "x_m": -610.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 810.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:400",
+   "x_m": 810.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-7",
+   "x_m": -510.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-7",
+   "x_m": 710.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": -410.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": 610.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-21c",
+   "x_m": -310.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 510.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": 260.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "fim",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:80",
+   "x_m": 360.0,
+   "y_m": -10.1,
+   "suporte": "cavalete",
+   "serie": "retorno",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": -60.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "fim-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:80",
+   "x_m": -160.0,
+   "y_m": 10.1,
+   "suporte": "cavalete",
+   "serie": "retorno-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -210.0,
+   "y_m": -6.1,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -200.0,
+   "y_m": -5.8999999999999995,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -190.0,
+   "y_m": -5.699999999999999,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -180.0,
+   "y_m": -5.5,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -170.0,
+   "y_m": -5.3,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -160.0,
+   "y_m": -5.1,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -150.0,
+   "y_m": -4.8999999999999995,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -140.0,
+   "y_m": -4.699999999999999,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -130.0,
+   "y_m": -4.5,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -120.0,
+   "y_m": -4.3,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -110.0,
+   "y_m": -4.1,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -100.0,
+   "y_m": -3.9,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -90.0,
+   "y_m": -3.6999999999999997,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -80.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -70.0,
+   "y_m": -3.3,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -60.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -60.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -50.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -40.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -30.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -20.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -10.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 0.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 10.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 20.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 30.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 40.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 50.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 60.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 70.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 80.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 90.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 100.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 110.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 120.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 130.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 140.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 150.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 160.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 170.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 180.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 190.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 200.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 210.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 215.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 215.0,
+   "y_m": -3.1,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 225.0,
+   "y_m": -5.1,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": 230.0,
+   "y_m": -6.1,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  }
+ ],
+ "pre_x": [
+  -1210.0,
+  -710.0,
+  -610.0,
+  -510.0,
+  -410.0,
+  -310.0
+ ],
+ "pre_oposta_x": [
+  1410.0,
+  910.0,
+  810.0,
+  710.0,
+  610.0,
+  510.0
+ ],
+ "exige_radio": false,
+ "notas": [],
+ "geom": {
+  "c": 0.0,
+  "n": 1,
+  "n_op": 1,
+  "w": 3.6,
+  "a": 2.5,
+  "borda_dir": -6.1,
+  "borda_pista": -3.6,
+  "filas": [],
+  "ramos": [],
+  "oc_hi": -3.1,
+  "oc_lo": -6.1,
+  "lado_fechado": "dir",
+  "y_cone": -3.1,
+  "y_ini_taper": -6.1,
+  "trab": [
+   -3.7,
+   -6.1
+  ],
+  "borda_ext": -6.1
+ },
+ "quantidades": {
+  "A-21c": 2,
+  "A-24": 6,
+  "CONE": 48,
+  "FIM-OBRAS": 2,
+  "INFO-DIST": 6,
+  "R-19": 4,
+  "R-7": 2
+ }
+}

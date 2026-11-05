@@ -1,0 +1,167 @@
+{
+ "codigo": "CR-A01",
+ "titulo": "Serviço móvel na faixa da esquerda, pista dupla, com dois veículos de sinalização",
+ "base": null,
+ "situacao": {
+  "codigo": "CR-A01",
+  "titulo": "Serviço móvel na faixa da esquerda, pista dupla, com dois veículos de sinalização",
+  "via": "dupla",
+  "faixas_por_sentido": 2,
+  "largura_faixa_m": 3.6,
+  "acostamento_m": 2.5,
+  "v_kmh": 100,
+  "ocupacao": [
+   1
+  ],
+  "extensao_trabalho_m": 100,
+  "tipo": "movel",
+  "oae": null,
+  "controle": null,
+  "noturno": false,
+  "amc": false,
+  "canalizador": null,
+  "invasao_faixa_m": 0.0,
+  "pedestres": false,
+  "ramo": null,
+  "ambos_sentidos": false,
+  "rotulo_tipo": null,
+  "pmv": false,
+  "trabalho_noturno": false,
+  "duracao_dias": null,
+  "v_obra_kmh": null,
+  "curva": null,
+  "faixas_sentido_oposto": null
+ },
+ "params": {
+  "presinalizacao_m": [
+   2000,
+   1500,
+   1000,
+   500,
+   400,
+   300,
+   200,
+   100
+  ],
+  "transicao_m": 200.0,
+  "protecao_long_m": 100.0,
+  "protecao_lat_m": 0.6,
+  "espac_cones_transicao_m": 10.0,
+  "espac_cones_trabalho_m": 10.0,
+  "pare_siga_ext_max_m": 0.0,
+  "fonte": "pré-sinalização 2000 m: MBST VII item 5.2.1 p. 23 (pista dupla, 90 a 120 km/h); passo: MBST VII Projeto-Tipo rural 4 p. 163; transição: IPR 738 item 3.1.2 p. 41 e MBST VII item 5.2.2 p. 25 (via rural), o maior dos dois; proteção longitudinal: MBST VII item 5.2.3 p. 27 (mín. 60 m rural); 90-110 km/h: ARTERIS MAN 555 p. 9 (100 m), mais exigente; proteção lateral: IPR 738 item 5.7 p. 82 (afastamento 0,30 a 0,60 m); cones: MBST VII Tabela 9-1 p. 94 (= MAN-OPV-001 Tabela 5.2); pare e siga: não se aplica em pista dupla (MBST VII item 11.2 p. 127, só pista simples)"
+ },
+ "zonas": [
+  [
+   "presinalizacao",
+   -200.0,
+   -50.0
+  ],
+  [
+   "transicao",
+   -50.0,
+   -50.0
+  ],
+  [
+   "protecao",
+   -50.0,
+   0.0
+  ],
+  [
+   "trabalho",
+   0.0,
+   100.0
+  ],
+  [
+   "saida",
+   100.0,
+   100.0
+  ]
+ ],
+ "itens": [
+  {
+   "codigo": "VEIC-SERV",
+   "x_m": -50.0,
+   "y_m": -3.8,
+   "suporte": null,
+   "serie": "veic",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "VEIC-SERV",
+   "x_m": -200.0,
+   "y_m": -3.8,
+   "suporte": null,
+   "serie": "veic",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "SETA-LUM",
+   "x_m": -50.0,
+   "y_m": -3.8,
+   "suporte": null,
+   "serie": "seta-veic",
+   "lado": "dir",
+   "rot": -90,
+   "luz": ""
+  },
+  {
+   "codigo": "SETA-LUM",
+   "x_m": -200.0,
+   "y_m": -3.8,
+   "suporte": null,
+   "serie": "seta-veic",
+   "lado": "dir",
+   "rot": -90,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -200.0,
+   "y_m": -15.7,
+   "suporte": "veiculo",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  }
+ ],
+ "pre_x": [
+  -200.0
+ ],
+ "pre_oposta_x": [],
+ "exige_radio": false,
+ "notas": [
+  "Comboio: veículo de proteção a 50 m da frente e de advertência a 200 m, com luz âmbar e seta luminosa; A-24 no veículo de advertência; sem placa fixa (MBST VII 10.3)."
+ ],
+ "geom": {
+  "c": 2.0,
+  "n": 2,
+  "n_op": 2,
+  "w": 3.6,
+  "a": 2.5,
+  "borda_dir": -11.7,
+  "borda_pista": -9.2,
+  "filas": [],
+  "ramos": [],
+  "oc_hi": -2.0,
+  "oc_lo": -5.6,
+  "lado_fechado": "esq",
+  "y_cone": -5.6,
+  "y_ini_taper": -2.0,
+  "trab": [
+   -2.0,
+   -5.0
+  ],
+  "borda_ext": -11.7
+ },
+ "quantidades": {
+  "A-24": 1,
+  "SETA-LUM": 2,
+  "VEIC-SERV": 2
+ }
+}

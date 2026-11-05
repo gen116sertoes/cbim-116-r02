@@ -1,0 +1,332 @@
+[
+ {
+  "codigo": "CR-A01",
+  "titulo": "Serviço móvel na faixa da esquerda, pista dupla, com dois veículos de sinalização",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-A02",
+  "titulo": "Serviço móvel na faixa da esquerda, pista dupla, com veículo dotado de atenuador de impacto (AMC)",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-A03",
+  "titulo": "Serviço móvel na faixa da direita, pista dupla, com dois veículos ou veículo com AMC",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-A04",
+  "titulo": "Serviço contínuo em movimento no acostamento, pista dupla",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-A05",
+  "titulo": "Serviço contínuo em movimento no acostamento, pista simples",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-A06",
+  "titulo": "Roçada e varrição manual e mecanizada no canteiro e no bordo, pista dupla",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-A07",
+  "titulo": "Pintura de faixa e implantação de tachas com proteção de cones móveis",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-A08",
+  "titulo": "Tapa-buraco em movimento, pista simples, com caminhão de massa e veículo de proteção",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-B01",
+  "titulo": "Serviço de curta duração no acostamento ou recuo, pista simples e dupla",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-B02",
+  "titulo": "Serviço de curta duração na faixa 1, pista dupla",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-B03",
+  "titulo": "Serviço de curta duração na faixa 2, pista dupla",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-B04",
+  "titulo": "Tapa-buraco emergencial em trecho de baixo volume com pare e siga",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-B05",
+  "titulo": "Ensaio FWD e levantamentos com paradas sucessivas, em comboio de veículos de sinalização",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-C01",
+  "titulo": "Estreitamento de pista simples sem bloqueio de sentido (faixa reduzida)",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-C02",
+  "titulo": "Meia pista com pare e siga manual, sinaleiros nas duas pontas e rádio",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-C03",
+  "titulo": "Meia pista com semáforo portátil, longa duração (24 h)",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-C03-N",
+  "titulo": "Meia pista com semáforo portátil, longa duração (24 h) (variante noturna)",
+  "noturno": true,
+  "base": "CR-C03"
+ },
+ {
+  "codigo": "CR-C04",
+  "titulo": "Interdição total da pista simples com desvio por pista provisória lateral",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-C04-N",
+  "titulo": "Interdição total da pista simples com desvio por pista provisória lateral (variante noturna)",
+  "noturno": true,
+  "base": "CR-C04"
+ },
+ {
+  "codigo": "CR-C05",
+  "titulo": "Interdição total da pista simples com rota alternativa sinalizada",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-C05-N",
+  "titulo": "Interdição total da pista simples com rota alternativa sinalizada (variante noturna)",
+  "noturno": true,
+  "base": "CR-C05"
+ },
+ {
+  "codigo": "CR-C06",
+  "titulo": "Obra em curva ou com visibilidade restrita, pista simples, com pare e siga antes da curva",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-C07",
+  "titulo": "Pista simples com terceira faixa: fechamento da faixa adicional",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-C08",
+  "titulo": "Meia pista em pista simples com desvio pelo acostamento, sem pare e siga",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-D01",
+  "titulo": "Interdição de faixa por dias ou semanas com barreira, pista dupla",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-D01-N",
+  "titulo": "Interdição de faixa por dias ou semanas com barreira, pista dupla (variante noturna)",
+  "noturno": true,
+  "base": "CR-D01"
+ },
+ {
+  "codigo": "CR-D02",
+  "titulo": "Desvio para a pista oposta em contrafluxo, com travessia do canteiro",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-D02-N",
+  "titulo": "Desvio para a pista oposta em contrafluxo, com travessia do canteiro (variante noturna)",
+  "noturno": true,
+  "base": "CR-D02"
+ },
+ {
+  "codigo": "CR-D03",
+  "titulo": "Estreitamento de faixas com redução de largura, pista dupla",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-D03-N",
+  "titulo": "Estreitamento de faixas com redução de largura, pista dupla (variante noturna)",
+  "noturno": true,
+  "base": "CR-D03"
+ },
+ {
+  "codigo": "CR-D04",
+  "titulo": "Obras de ampliação por seções: faixa 1 fechada e tráfego deslocado para o acostamento reforçado",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-D04-N",
+  "titulo": "Obras de ampliação por seções: faixa 1 fechada e tráfego deslocado para o acostamento reforçado (variante noturna)",
+  "noturno": true,
+  "base": "CR-D04"
+ },
+ {
+  "codigo": "CR-D05",
+  "titulo": "Interseção, acesso ou alça com ramo interditado e desvio pela rota alternativa",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-D05-N",
+  "titulo": "Interseção, acesso ou alça com ramo interditado e desvio pela rota alternativa (variante noturna)",
+  "noturno": true,
+  "base": "CR-D05"
+ },
+ {
+  "codigo": "CR-E01",
+  "titulo": "Travessia urbana: obra com passagem segura de pedestre e ciclista e tapume",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-E01-N",
+  "titulo": "Travessia urbana: obra com passagem segura de pedestre e ciclista e tapume (variante noturna)",
+  "noturno": true,
+  "base": "CR-E01"
+ },
+ {
+  "codigo": "CR-F01",
+  "titulo": "Ponte de pista simples sem acostamento: meia pista com pare e siga, transição antes da cabeceira",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-F01-N",
+  "titulo": "Ponte de pista simples sem acostamento: meia pista com pare e siga, transição antes da cabeceira (variante noturna)",
+  "noturno": true,
+  "base": "CR-F01"
+ },
+ {
+  "codigo": "CR-F02",
+  "titulo": "Serviço sob o tabuleiro da ponte com plataforma suspensa, sem ocupação da pista",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-F02-N",
+  "titulo": "Serviço sob o tabuleiro da ponte com plataforma suspensa, sem ocupação da pista (variante noturna)",
+  "noturno": true,
+  "base": "CR-F02"
+ },
+ {
+  "codigo": "CR-F03",
+  "titulo": "Ponte ou viaduto de pista dupla: interdição da faixa 1 ou da faixa 2",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-F03-N",
+  "titulo": "Ponte ou viaduto de pista dupla: interdição da faixa 1 ou da faixa 2 (variante noturna)",
+  "noturno": true,
+  "base": "CR-F03"
+ },
+ {
+  "codigo": "CR-F04",
+  "titulo": "Interdição total da ponte (OAE) com desvio pela rota alternativa",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-F04-N",
+  "titulo": "Interdição total da ponte (OAE) com desvio pela rota alternativa (variante noturna)",
+  "noturno": true,
+  "base": "CR-F04"
+ },
+ {
+  "codigo": "CR-F05",
+  "titulo": "Viaduto sobre a rodovia: serviço no tabuleiro com proteção da pista inferior",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-F05-N",
+  "titulo": "Viaduto sobre a rodovia: serviço no tabuleiro com proteção da pista inferior (variante noturna)",
+  "noturno": true,
+  "base": "CR-F05"
+ },
+ {
+  "codigo": "CR-F06",
+  "titulo": "Passarela: içamento de vigas com interdição total temporária programada (bloqueio por janelas com apoio da PRF)",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-F06-N",
+  "titulo": "Passarela: içamento de vigas com interdição total temporária programada (bloqueio por janelas com apoio da PRF) (variante noturna)",
+  "noturno": true,
+  "base": "CR-F06"
+ },
+ {
+  "codigo": "CR-F07",
+  "titulo": "Passarela: manutenção sem içamento, faixa interditada sob a frente",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-G01",
+  "titulo": "Emergência: sinalização inicial pela viatura de inspeção (primeira resposta)",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-G02",
+  "titulo": "Emergência por acidente com bloqueio de faixa, pista dupla e simples (montagem padrão)",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-G03",
+  "titulo": "Interdição total emergencial com proteção do fim de fila",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-G04",
+  "titulo": "Erosão, afundamento ou queda de barreira na pista com pare e siga",
+  "noturno": false,
+  "base": null
+ },
+ {
+  "codigo": "CR-G04-N",
+  "titulo": "Erosão, afundamento ou queda de barreira na pista com pare e siga (variante noturna)",
+  "noturno": true,
+  "base": "CR-G04"
+ },
+ {
+  "codigo": "CR-G05",
+  "titulo": "Alagamento, queda de árvore ou carga na pista com pare e siga",
+  "noturno": false,
+  "base": null
+ }
+]

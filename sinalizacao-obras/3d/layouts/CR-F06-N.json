@@ -1,0 +1,1027 @@
+{
+ "codigo": "CR-F06-N",
+ "titulo": "Passarela: içamento de vigas com interdição total temporária programada (bloqueio por janelas com apoio da PRF) (variante noturna)",
+ "base": "CR-F06",
+ "situacao": {
+  "codigo": "CR-F06-N",
+  "titulo": "Passarela: içamento de vigas com interdição total temporária programada (bloqueio por janelas com apoio da PRF) (variante noturna)",
+  "via": "dupla",
+  "faixas_por_sentido": 2,
+  "largura_faixa_m": 3.6,
+  "acostamento_m": 2.5,
+  "v_kmh": 100,
+  "ocupacao": "total",
+  "extensao_trabalho_m": 40,
+  "tipo": "curta",
+  "oae": {
+   "inicio_m": 10,
+   "fim_m": 30,
+   "sobre_via": true,
+   "rotulo": "PASSARELA (içamento)"
+  },
+  "controle": "bloqueio",
+  "noturno": true,
+  "amc": null,
+  "canalizador": null,
+  "invasao_faixa_m": 0.0,
+  "pedestres": false,
+  "ramo": null,
+  "ambos_sentidos": true,
+  "rotulo_tipo": null,
+  "pmv": true,
+  "trabalho_noturno": true,
+  "duracao_dias": null,
+  "v_obra_kmh": null,
+  "curva": null,
+  "faixas_sentido_oposto": null
+ },
+ "params": {
+  "presinalizacao_m": [
+   2000,
+   1500,
+   1000,
+   500,
+   400,
+   300,
+   200,
+   100
+  ],
+  "transicao_m": 200.0,
+  "protecao_long_m": 100.0,
+  "protecao_lat_m": 0.6,
+  "espac_cones_transicao_m": 10.0,
+  "espac_cones_trabalho_m": 10.0,
+  "pare_siga_ext_max_m": 0.0,
+  "fonte": "pré-sinalização 2000 m: MBST VII item 5.2.1 p. 23 (pista dupla, 90 a 120 km/h); passo: MBST VII Projeto-Tipo rural 4 p. 163; transição: IPR 738 item 3.1.2 p. 41 e MBST VII item 5.2.2 p. 25 (via rural), o maior dos dois; proteção longitudinal: MBST VII item 5.2.3 p. 27 (mín. 60 m rural); 90-110 km/h: ARTERIS MAN 555 p. 9 (100 m), mais exigente; proteção lateral: IPR 738 item 5.7 p. 82 (afastamento 0,30 a 0,60 m); cones: MBST VII Tabela 9-1 p. 94 (= MAN-OPV-001 Tabela 5.2); pare e siga: não se aplica em pista dupla (MBST VII item 11.2 p. 127, só pista simples)"
+ },
+ "zonas": [
+  [
+   "presinalizacao",
+   -2300.0,
+   -300.0
+  ],
+  [
+   "transicao",
+   -300.0,
+   -100.0
+  ],
+  [
+   "protecao",
+   -100.0,
+   0.0
+  ],
+  [
+   "trabalho",
+   0.0,
+   40.0
+  ],
+  [
+   "saida",
+   40.0,
+   340.0
+  ]
+ ],
+ "itens": [
+  {
+   "codigo": "PMV",
+   "x_m": -2300.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -1800.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1500",
+   "x_m": -1800.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -1300.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1000",
+   "x_m": -1300.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "PISTA-FECHADA:500",
+   "x_m": -800.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:80",
+   "x_m": -700.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "PISTA-FECHADA:300",
+   "x_m": -600.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": -500.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "PISTA-FECHADA:100",
+   "x_m": -400.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": 340.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "fim",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:100",
+   "x_m": 440.0,
+   "y_m": -15.7,
+   "suporte": "cavalete",
+   "serie": "retorno",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -300.0,
+   "y_m": -9.2,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -290.0,
+   "y_m": -8.989999999999998,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -280.0,
+   "y_m": -8.78,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -270.0,
+   "y_m": -8.57,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -260.0,
+   "y_m": -8.36,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -250.0,
+   "y_m": -8.149999999999999,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -240.0,
+   "y_m": -7.9399999999999995,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -230.0,
+   "y_m": -7.7299999999999995,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -220.0,
+   "y_m": -7.52,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -210.0,
+   "y_m": -7.31,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -200.0,
+   "y_m": -7.1,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -190.0,
+   "y_m": -6.89,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -180.0,
+   "y_m": -6.68,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -170.0,
+   "y_m": -6.47,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -160.0,
+   "y_m": -6.26,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -150.0,
+   "y_m": -6.05,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -140.0,
+   "y_m": -5.84,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -130.0,
+   "y_m": -5.63,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -120.0,
+   "y_m": -5.42,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -110.0,
+   "y_m": -5.21,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -100.0,
+   "y_m": -5.0,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "BARREIRA-PLAST",
+   "x_m": -100.0,
+   "y_m": -8.299999999999999,
+   "suporte": null,
+   "serie": "bloqueio",
+   "lado": "dir",
+   "rot": 90,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "BARREIRA-PLAST",
+   "x_m": -100.0,
+   "y_m": -6.499999999999999,
+   "suporte": null,
+   "serie": "bloqueio",
+   "lado": "dir",
+   "rot": 90,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "BARREIRA-PLAST",
+   "x_m": -100.0,
+   "y_m": -4.699999999999999,
+   "suporte": null,
+   "serie": "bloqueio",
+   "lado": "dir",
+   "rot": 90,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "BARREIRA-PLAST",
+   "x_m": -100.0,
+   "y_m": -2.8999999999999995,
+   "suporte": null,
+   "serie": "bloqueio",
+   "lado": "dir",
+   "rot": 90,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "SETA-LUM",
+   "x_m": -300.0,
+   "y_m": -7.4,
+   "suporte": null,
+   "serie": "seta",
+   "lado": "dir",
+   "rot": 90,
+   "luz": ""
+  },
+  {
+   "codigo": "VEIC-SERV",
+   "x_m": -400.0,
+   "y_m": -3.8,
+   "suporte": null,
+   "serie": "fim-fila",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "SETA-LUM",
+   "x_m": -400.0,
+   "y_m": -11.45,
+   "suporte": null,
+   "serie": "fim-fila",
+   "lado": "dir",
+   "rot": 90,
+   "luz": ""
+  },
+  {
+   "codigo": "SINALEIRO-BASTAO",
+   "x_m": -500.0,
+   "y_m": -10.45,
+   "suporte": null,
+   "serie": "fim-fila",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "VIATURA-PRF",
+   "x_m": -50.0,
+   "y_m": -3.8,
+   "suporte": null,
+   "serie": "prf",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "PMV",
+   "x_m": 2340.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 1840.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1500",
+   "x_m": 1840.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 1340.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1000",
+   "x_m": 1340.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "PISTA-FECHADA:500",
+   "x_m": 840.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:80",
+   "x_m": 740.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "PISTA-FECHADA:300",
+   "x_m": 640.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": 540.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "PISTA-FECHADA:100",
+   "x_m": 440.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": -300.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "fim-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:100",
+   "x_m": -400.0,
+   "y_m": 15.7,
+   "suporte": "cavalete",
+   "serie": "retorno-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 340.0,
+   "y_m": 9.2,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 330.0,
+   "y_m": 8.989999999999998,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 320.0,
+   "y_m": 8.78,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 310.0,
+   "y_m": 8.57,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 300.0,
+   "y_m": 8.36,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 290.0,
+   "y_m": 8.149999999999999,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 280.0,
+   "y_m": 7.9399999999999995,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 270.0,
+   "y_m": 7.7299999999999995,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 260.0,
+   "y_m": 7.52,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 250.0,
+   "y_m": 7.31,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 240.0,
+   "y_m": 7.1,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 230.0,
+   "y_m": 6.89,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 220.0,
+   "y_m": 6.68,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 210.0,
+   "y_m": 6.47,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 200.0,
+   "y_m": 6.26,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 190.0,
+   "y_m": 6.05,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 180.0,
+   "y_m": 5.84,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 170.0,
+   "y_m": 5.63,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 160.0,
+   "y_m": 5.42,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 150.0,
+   "y_m": 5.21,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 140.0,
+   "y_m": 5.0,
+   "suporte": null,
+   "serie": "taper-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "BARREIRA-PLAST",
+   "x_m": 140.0,
+   "y_m": 8.299999999999999,
+   "suporte": null,
+   "serie": "bloqueio-op",
+   "lado": "esq",
+   "rot": 270,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "BARREIRA-PLAST",
+   "x_m": 140.0,
+   "y_m": 6.499999999999999,
+   "suporte": null,
+   "serie": "bloqueio-op",
+   "lado": "esq",
+   "rot": 270,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "BARREIRA-PLAST",
+   "x_m": 140.0,
+   "y_m": 4.699999999999999,
+   "suporte": null,
+   "serie": "bloqueio-op",
+   "lado": "esq",
+   "rot": 270,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "BARREIRA-PLAST",
+   "x_m": 140.0,
+   "y_m": 2.8999999999999995,
+   "suporte": null,
+   "serie": "bloqueio-op",
+   "lado": "esq",
+   "rot": 270,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "SETA-LUM",
+   "x_m": 340.0,
+   "y_m": 7.4,
+   "suporte": null,
+   "serie": "seta-op",
+   "lado": "esq",
+   "rot": 270,
+   "luz": ""
+  },
+  {
+   "codigo": "VEIC-SERV",
+   "x_m": 440.0,
+   "y_m": 3.8,
+   "suporte": null,
+   "serie": "fim-fila-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "SETA-LUM",
+   "x_m": 440.0,
+   "y_m": 11.45,
+   "suporte": null,
+   "serie": "fim-fila-op",
+   "lado": "esq",
+   "rot": 270,
+   "luz": ""
+  },
+  {
+   "codigo": "SINALEIRO-BASTAO",
+   "x_m": 540.0,
+   "y_m": 10.45,
+   "suporte": null,
+   "serie": "fim-fila-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "VIATURA-PRF",
+   "x_m": 90.0,
+   "y_m": 3.8,
+   "suporte": null,
+   "serie": "prf-op",
+   "lado": "esq",
+   "rot": 180.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TORRE-ILUM",
+   "x_m": 0.0,
+   "y_m": -14.2,
+   "suporte": null,
+   "serie": "luz",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TORRE-ILUM",
+   "x_m": 40.0,
+   "y_m": -14.2,
+   "suporte": null,
+   "serie": "luz",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  }
+ ],
+ "pre_x": [
+  -2300.0,
+  -1800.0,
+  -1300.0,
+  -800.0,
+  -700.0,
+  -600.0,
+  -500.0,
+  -400.0
+ ],
+ "pre_oposta_x": [
+  2340.0,
+  1840.0,
+  1340.0,
+  840.0,
+  740.0,
+  640.0,
+  540.0,
+  440.0
+ ],
+ "exige_radio": false,
+ "notas": [
+  "Bloqueio: veículo com seta luminosa no fim da fila e sinaleiro de alerta com bastão luminoso no mínimo 100 m antes do último veículo, recuando com a fila (MBST VII item 11.2 a).",
+  "Bloqueio nos dois sentidos na mesma janela, com a PRF retendo o tráfego. Ninguém sob a projeção da carga suspensa.",
+  "PMV móvel no início da pré-sinalização.",
+  "Noite: luz amarela intermitente na transição, contínua da proteção ao retorno (Vol. VI 10.11); torres de iluminação na frente com trabalho noturno, iluminando também o posto do sinaleiro."
+ ],
+ "geom": {
+  "c": 2.0,
+  "n": 2,
+  "n_op": 2,
+  "w": 3.6,
+  "a": 2.5,
+  "borda_dir": -11.7,
+  "borda_pista": -9.2,
+  "filas": [
+   [
+    -400.0,
+    -100.0,
+    -2.0,
+    -5.6
+   ],
+   [
+    140.0,
+    440.0,
+    2.0,
+    5.6
+   ]
+  ],
+  "ramos": [],
+  "oc_hi": -2.0,
+  "oc_lo": -9.2,
+  "lado_fechado": "dir",
+  "y_cone": -5.0,
+  "y_ini_taper": -9.2,
+  "trab": [
+   -2.0,
+   -9.2
+  ],
+  "borda_ext": -11.7,
+  "zona_carga": [
+   10,
+   30
+  ]
+ },
+ "quantidades": {
+  "A-24": 4,
+  "BARREIRA-PLAST": 8,
+  "ELEM-LUM-I": 50,
+  "FIM-OBRAS": 2,
+  "INFO-DIST": 4,
+  "PISTA-FECHADA": 6,
+  "PMV": 2,
+  "R-19": 6,
+  "SETA-LUM": 4,
+  "SINALEIRO-BASTAO": 2,
+  "TAMBOR": 42,
+  "TORRE-ILUM": 2,
+  "VEIC-SERV": 2,
+  "VIATURA-PRF": 2
+ }
+}

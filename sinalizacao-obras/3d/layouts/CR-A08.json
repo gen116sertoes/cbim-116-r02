@@ -1,0 +1,169 @@
+{
+ "codigo": "CR-A08",
+ "titulo": "Tapa-buraco em movimento, pista simples, com caminhão de massa e veículo de proteção",
+ "base": null,
+ "situacao": {
+  "codigo": "CR-A08",
+  "titulo": "Tapa-buraco em movimento, pista simples, com caminhão de massa e veículo de proteção",
+  "via": "simples",
+  "faixas_por_sentido": 1,
+  "largura_faixa_m": 3.6,
+  "acostamento_m": 2.5,
+  "v_kmh": 80,
+  "ocupacao": [
+   1
+  ],
+  "extensao_trabalho_m": 60,
+  "tipo": "movel",
+  "oae": null,
+  "controle": null,
+  "noturno": false,
+  "amc": false,
+  "canalizador": null,
+  "invasao_faixa_m": 0.0,
+  "pedestres": false,
+  "ramo": null,
+  "ambos_sentidos": false,
+  "rotulo_tipo": null,
+  "pmv": false,
+  "trabalho_noturno": false,
+  "duracao_dias": null,
+  "v_obra_kmh": null,
+  "curva": null,
+  "faixas_sentido_oposto": null
+ },
+ "params": {
+  "presinalizacao_m": [
+   1500,
+   1000,
+   500,
+   400,
+   300,
+   200,
+   100
+  ],
+  "transicao_m": 150.0,
+  "protecao_long_m": 60.0,
+  "protecao_lat_m": 0.6,
+  "espac_cones_transicao_m": 10.0,
+  "espac_cones_trabalho_m": 10.0,
+  "pare_siga_ext_max_m": 2000.0,
+  "fonte": "pré-sinalização 1500 m: IPR 738 item 3.1.1 p. 41 (fluxo obrigado a parar ou desviado); passo das placas: MBST VII Projeto-Tipo rural 4 p. 163 e item 6.7 p. 46; transição: IPR 738 item 3.1.2 p. 41 e MBST VII item 5.2.2 p. 25 (via rural), o maior dos dois; proteção longitudinal: MBST VII item 5.2.3 p. 27 (mín. 60 m rural); 90-110 km/h: ARTERIS MAN 555 p. 9 (100 m), mais exigente; proteção lateral: IPR 738 item 5.7 p. 82 (afastamento 0,30 a 0,60 m); cones: MBST VII Tabela 9-1 p. 94 (= MAN-OPV-001 Tabela 5.2); pare e siga: MAN-OPV-001 'Extensão das Interdições' (2,0 km pista simples), rádio obrigatório MBST VII item 11.2 p. 128"
+ },
+ "zonas": [
+  [
+   "presinalizacao",
+   -200.0,
+   -60.0
+  ],
+  [
+   "transicao",
+   -60.0,
+   -60.0
+  ],
+  [
+   "protecao",
+   -60.0,
+   0.0
+  ],
+  [
+   "trabalho",
+   0.0,
+   60.0
+  ],
+  [
+   "saida",
+   60.0,
+   60.0
+  ]
+ ],
+ "itens": [
+  {
+   "codigo": "VEIC-SERV",
+   "x_m": -60.0,
+   "y_m": -1.8,
+   "suporte": null,
+   "serie": "veic",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "SETA-LUM",
+   "x_m": -60.0,
+   "y_m": -1.8,
+   "suporte": null,
+   "serie": "seta-veic",
+   "lado": "dir",
+   "rot": 90,
+   "luz": ""
+  },
+  {
+   "codigo": "CAMINHAO-MASSA",
+   "x_m": 60.0,
+   "y_m": -1.8,
+   "suporte": null,
+   "serie": "veic",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "SINALEIRO-BANDEIRA",
+   "x_m": -200.0,
+   "y_m": -7.1,
+   "suporte": null,
+   "serie": "bandeira",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "SINALEIRO-BANDEIRA",
+   "x_m": 260.0,
+   "y_m": 7.1,
+   "suporte": null,
+   "serie": "bandeira",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  }
+ ],
+ "pre_x": [
+  -200.0
+ ],
+ "pre_oposta_x": [],
+ "exige_radio": false,
+ "notas": [
+  "A equipe trabalha entre o veículo de sinalização, a 60 m atrás, e o caminhão de massa asfáltica, à frente; o conjunto avança a cada buraco executado.",
+  "Sinaleiro com bandeira vermelha a 200 m antes da equipe e outro a 200 m da frente no sentido oposto, orientando o fluxo que passa pela faixa livre.",
+  "Serviço executado só com boa visibilidade e, de preferência, fora dos horários de pico; sem placa fixa na via."
+ ],
+ "geom": {
+  "c": 0.0,
+  "n": 1,
+  "n_op": 1,
+  "w": 3.6,
+  "a": 2.5,
+  "borda_dir": -6.1,
+  "borda_pista": -3.6,
+  "filas": [],
+  "ramos": [],
+  "oc_hi": -0.0,
+  "oc_lo": -3.6,
+  "lado_fechado": "dir",
+  "y_cone": -0.0,
+  "y_ini_taper": -3.6,
+  "trab": [
+   -0.6,
+   -3.6
+  ],
+  "borda_ext": -6.1
+ },
+ "quantidades": {
+  "CAMINHAO-MASSA": 1,
+  "SETA-LUM": 1,
+  "SINALEIRO-BANDEIRA": 2,
+  "VEIC-SERV": 1
+ }
+}

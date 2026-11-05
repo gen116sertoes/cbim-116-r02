@@ -1,0 +1,218 @@
+{
+ "codigo": "CR-G01",
+ "titulo": "Emergência: sinalização inicial pela viatura de inspeção (primeira resposta)",
+ "base": null,
+ "situacao": {
+  "codigo": "CR-G01",
+  "titulo": "Emergência: sinalização inicial pela viatura de inspeção (primeira resposta)",
+  "via": "dupla",
+  "faixas_por_sentido": 2,
+  "largura_faixa_m": 3.6,
+  "acostamento_m": 2.5,
+  "v_kmh": 100,
+  "ocupacao": [
+   2
+  ],
+  "extensao_trabalho_m": 50,
+  "tipo": "emergencia",
+  "oae": null,
+  "controle": null,
+  "noturno": false,
+  "amc": null,
+  "canalizador": null,
+  "invasao_faixa_m": 0.0,
+  "pedestres": false,
+  "ramo": null,
+  "ambos_sentidos": false,
+  "rotulo_tipo": null,
+  "pmv": false,
+  "trabalho_noturno": false,
+  "duracao_dias": null,
+  "v_obra_kmh": null,
+  "curva": null,
+  "faixas_sentido_oposto": null
+ },
+ "params": {
+  "presinalizacao_m": [
+   2000,
+   1500,
+   1000,
+   500,
+   400,
+   300,
+   200,
+   100
+  ],
+  "transicao_m": 200.0,
+  "protecao_long_m": 100.0,
+  "protecao_lat_m": 0.6,
+  "espac_cones_transicao_m": 10.0,
+  "espac_cones_trabalho_m": 10.0,
+  "pare_siga_ext_max_m": 0.0,
+  "fonte": "pré-sinalização 2000 m: MBST VII item 5.2.1 p. 23 (pista dupla, 90 a 120 km/h); passo: MBST VII Projeto-Tipo rural 4 p. 163; transição: IPR 738 item 3.1.2 p. 41 e MBST VII item 5.2.2 p. 25 (via rural), o maior dos dois; proteção longitudinal: MBST VII item 5.2.3 p. 27 (mín. 60 m rural); 90-110 km/h: ARTERIS MAN 555 p. 9 (100 m), mais exigente; proteção lateral: IPR 738 item 5.7 p. 82 (afastamento 0,30 a 0,60 m); cones: MBST VII Tabela 9-1 p. 94 (= MAN-OPV-001 Tabela 5.2); pare e siga: não se aplica em pista dupla (MBST VII item 11.2 p. 127, só pista simples)"
+ },
+ "zonas": [
+  [
+   "presinalizacao",
+   -350.0,
+   -150.0
+  ],
+  [
+   "transicao",
+   -150.0,
+   -100.0
+  ],
+  [
+   "protecao",
+   -100.0,
+   0.0
+  ],
+  [
+   "trabalho",
+   0.0,
+   50.0
+  ],
+  [
+   "saida",
+   50.0,
+   140.0
+  ]
+ ],
+ "itens": [
+  {
+   "codigo": "CONE",
+   "x_m": -150.0,
+   "y_m": -9.2,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -140.0,
+   "y_m": -8.479999999999999,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -130.0,
+   "y_m": -7.76,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -120.0,
+   "y_m": -7.039999999999999,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -110.0,
+   "y_m": -6.319999999999999,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "CONE",
+   "x_m": -100.0,
+   "y_m": -5.6,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "VIATURA",
+   "x_m": -100.0,
+   "y_m": -7.3999999999999995,
+   "suporte": null,
+   "serie": "viatura",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "SETA-LUM",
+   "x_m": -100.0,
+   "y_m": -7.3999999999999995,
+   "suporte": null,
+   "serie": "viatura-seta",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TRIANGULO",
+   "x_m": -350.0,
+   "y_m": -10.45,
+   "suporte": null,
+   "serie": "triangulo",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "SINALEIRO-BANDEIRA",
+   "x_m": -250.0,
+   "y_m": -10.45,
+   "suporte": null,
+   "serie": "alerta",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  }
+ ],
+ "pre_x": [],
+ "pre_oposta_x": [],
+ "exige_radio": false,
+ "notas": [
+  "Viatura com luz âmbar e seta antes da ocorrência; transição de 50 m com os cones da viatura (10); triângulo no acostamento a 200 m e sinaleiro com bandeira vermelha no acostamento, entre os dois.",
+  "Primeira resposta só com o que a viatura leva, sem placa em cavalete, até a montagem padrão."
+ ],
+ "geom": {
+  "c": 2.0,
+  "n": 2,
+  "n_op": 2,
+  "w": 3.6,
+  "a": 2.5,
+  "borda_dir": -11.7,
+  "borda_pista": -9.2,
+  "filas": [],
+  "ramos": [],
+  "oc_hi": -5.6,
+  "oc_lo": -9.2,
+  "lado_fechado": "dir",
+  "y_cone": -5.6,
+  "y_ini_taper": -9.2,
+  "trab": [
+   -6.199999999999999,
+   -9.2
+  ],
+  "borda_ext": -11.7
+ },
+ "quantidades": {
+  "CONE": 6,
+  "SETA-LUM": 1,
+  "SINALEIRO-BANDEIRA": 1,
+  "TRIANGULO": 1,
+  "VIATURA": 1
+ }
+}

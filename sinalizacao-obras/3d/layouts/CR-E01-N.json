@@ -1,0 +1,756 @@
+{
+ "codigo": "CR-E01-N",
+ "titulo": "Travessia urbana: obra com passagem segura de pedestre e ciclista e tapume (variante noturna)",
+ "base": "CR-E01",
+ "situacao": {
+  "codigo": "CR-E01-N",
+  "titulo": "Travessia urbana: obra com passagem segura de pedestre e ciclista e tapume (variante noturna)",
+  "via": "urbana",
+  "faixas_por_sentido": 1,
+  "largura_faixa_m": 3.5,
+  "acostamento_m": 2.0,
+  "v_kmh": 60,
+  "ocupacao": "acostamento",
+  "extensao_trabalho_m": 100,
+  "tipo": "longa",
+  "oae": null,
+  "controle": null,
+  "noturno": true,
+  "amc": null,
+  "canalizador": null,
+  "invasao_faixa_m": 0.0,
+  "pedestres": true,
+  "ramo": null,
+  "ambos_sentidos": false,
+  "rotulo_tipo": null,
+  "pmv": false,
+  "trabalho_noturno": false,
+  "duracao_dias": null,
+  "v_obra_kmh": null,
+  "curva": null,
+  "faixas_sentido_oposto": null
+ },
+ "params": {
+  "presinalizacao_m": [
+   150,
+   100,
+   50
+  ],
+  "transicao_m": 60.0,
+  "protecao_long_m": 30.0,
+  "protecao_lat_m": 0.6,
+  "espac_cones_transicao_m": 8.0,
+  "espac_cones_trabalho_m": 8.0,
+  "pare_siga_ext_max_m": 2000.0,
+  "fonte": "pré-sinalização: MBST VII item 5.2.1 p. 23, via urbana por classe (CTB art. 61: coletora 40, arterial 60, trânsito rápido 80 km/h); passo: MBST VII item 6.7 p. 46 (50 m urbana); transição: MBST VII item 5.2.2 p. 26-27, fórmula de via urbana (L=V.a/3,6 até 70 km/h; L=1,8.V.a/3,6 acima), a=3,60 m, arredondado para cima a 10 m; proteção longitudinal: via urbana, MBST VII item 5.2.3 p. 27 (30 a 60 m acima de 70 km/h) e IPR 738 item 3.1.3 a) p. 43 (mín. 30 m); proteção lateral: IPR 738 item 5.7 p. 82 (afastamento 0,30 a 0,60 m); cones: MBST VII Tabela 9-1 p. 94 (= MAN-OPV-001 Tabela 5.2); pare e siga: MAN-OPV-001 'Extensão das Interdições' (2,0 km), rádio MBST VII item 11.2 p. 128"
+ },
+ "zonas": [
+  [
+   "presinalizacao",
+   -230.0,
+   -80.0
+  ],
+  [
+   "transicao",
+   -80.0,
+   -30.0
+  ],
+  [
+   "protecao",
+   -30.0,
+   0.0
+  ],
+  [
+   "trabalho",
+   0.0,
+   100.0
+  ],
+  [
+   "saida",
+   100.0,
+   160.0
+  ]
+ ],
+ "itens": [
+  {
+   "codigo": "A-24",
+   "x_m": -230.0,
+   "y_m": -11.0,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:150",
+   "x_m": -230.0,
+   "y_m": -11.0,
+   "suporte": "poste",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 330.0,
+   "y_m": 11.0,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:150",
+   "x_m": 330.0,
+   "y_m": 11.0,
+   "suporte": "poste",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:40",
+   "x_m": -180.0,
+   "y_m": -11.0,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:40",
+   "x_m": 280.0,
+   "y_m": 11.0,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -130.0,
+   "y_m": -11.0,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 230.0,
+   "y_m": 11.0,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": 160.0,
+   "y_m": -11.0,
+   "suporte": "poste",
+   "serie": "fim",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": 260.0,
+   "y_m": -11.0,
+   "suporte": "poste",
+   "serie": "retorno",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": -60.0,
+   "y_m": 11.0,
+   "suporte": "poste",
+   "serie": "fim-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": -160.0,
+   "y_m": 11.0,
+   "suporte": "poste",
+   "serie": "retorno-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -80.0,
+   "y_m": -5.5,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -72.0,
+   "y_m": -5.18,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -64.0,
+   "y_m": -4.86,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -56.0,
+   "y_m": -4.54,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -48.0,
+   "y_m": -4.22,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -40.0,
+   "y_m": -3.9,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -32.0,
+   "y_m": -3.58,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -30.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "taper",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "intermitente"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -30.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -22.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -14.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": -6.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 2.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 10.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 18.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 26.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 34.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 42.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 50.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 58.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 66.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 74.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 82.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 90.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 98.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 106.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 114.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 115.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "lateral",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 115.0,
+   "y_m": -3.5,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 123.0,
+   "y_m": -4.566666666666666,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAMBOR",
+   "x_m": 130.0,
+   "y_m": -5.5,
+   "suporte": null,
+   "serie": "taper-saida",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": "continua"
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": -30.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": -22.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": -14.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": -6.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 2.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 10.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 18.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 26.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 34.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 42.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 50.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 58.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 66.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 74.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 82.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 90.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 98.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 106.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 114.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "TAPUME",
+   "x_m": 115.0,
+   "y_m": -5.8,
+   "suporte": null,
+   "serie": "tapume",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  }
+ ],
+ "pre_x": [
+  -230.0,
+  -180.0,
+  -130.0
+ ],
+ "pre_oposta_x": [
+  330.0,
+  280.0,
+  230.0
+ ],
+ "exige_radio": false,
+ "notas": [
+  "Passagem de pedestres e ciclistas com no mínimo 1,2 m, separada da via e da obra por tapume, iluminada à noite (MBST VII itens 5.6 e 5.7).",
+  "Noite: luz amarela intermitente na transição, contínua da proteção ao retorno (Vol. VI 10.11)."
+ ],
+ "geom": {
+  "c": 0.0,
+  "n": 1,
+  "n_op": 1,
+  "w": 3.5,
+  "a": 2.0,
+  "borda_dir": -5.5,
+  "borda_pista": -3.5,
+  "filas": [],
+  "ramos": [],
+  "oc_hi": -3.5,
+  "oc_lo": -5.5,
+  "lado_fechado": "dir",
+  "y_cone": -3.5,
+  "y_ini_taper": -5.5,
+  "trab": [
+   -4.1,
+   -5.5
+  ],
+  "borda_ext": -7.0,
+  "passagem": [
+   -5.8,
+   -7.0
+  ]
+ },
+ "quantidades": {
+  "A-24": 4,
+  "ELEM-LUM-C": 23,
+  "ELEM-LUM-I": 8,
+  "FIM-OBRAS": 2,
+  "INFO-DIST": 2,
+  "R-19": 4,
+  "TAMBOR": 31,
+  "TAPUME": 20
+ }
+}

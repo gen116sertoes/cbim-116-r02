@@ -1,0 +1,394 @@
+{
+ "codigo": "CR-F02",
+ "titulo": "Serviço sob o tabuleiro da ponte com plataforma suspensa, sem ocupação da pista",
+ "base": null,
+ "situacao": {
+  "codigo": "CR-F02",
+  "titulo": "Serviço sob o tabuleiro da ponte com plataforma suspensa, sem ocupação da pista",
+  "via": "simples",
+  "faixas_por_sentido": 1,
+  "largura_faixa_m": 3.4,
+  "acostamento_m": 0.8,
+  "v_kmh": 80,
+  "ocupacao": "nenhuma",
+  "extensao_trabalho_m": 120,
+  "tipo": "longa",
+  "oae": {
+   "inicio_m": 0,
+   "fim_m": 120,
+   "sem_acostamento": true
+  },
+  "controle": null,
+  "noturno": false,
+  "amc": null,
+  "canalizador": null,
+  "invasao_faixa_m": 0.0,
+  "pedestres": false,
+  "ramo": null,
+  "ambos_sentidos": false,
+  "rotulo_tipo": null,
+  "pmv": false,
+  "trabalho_noturno": false,
+  "duracao_dias": null,
+  "v_obra_kmh": null,
+  "curva": null,
+  "faixas_sentido_oposto": null
+ },
+ "params": {
+  "presinalizacao_m": [
+   1500,
+   1000,
+   500,
+   400,
+   300,
+   200,
+   100
+  ],
+  "transicao_m": 150.0,
+  "protecao_long_m": 60.0,
+  "protecao_lat_m": 0.6,
+  "espac_cones_transicao_m": 10.0,
+  "espac_cones_trabalho_m": 10.0,
+  "pare_siga_ext_max_m": 2000.0,
+  "fonte": "pré-sinalização 1500 m: IPR 738 item 3.1.1 p. 41 (fluxo obrigado a parar ou desviado); passo das placas: MBST VII Projeto-Tipo rural 4 p. 163 e item 6.7 p. 46; transição: IPR 738 item 3.1.2 p. 41 e MBST VII item 5.2.2 p. 25 (via rural), o maior dos dois; proteção longitudinal: MBST VII item 5.2.3 p. 27 (mín. 60 m rural); 90-110 km/h: ARTERIS MAN 555 p. 9 (100 m), mais exigente; proteção lateral: IPR 738 item 5.7 p. 82 (afastamento 0,30 a 0,60 m); cones: MBST VII Tabela 9-1 p. 94 (= MAN-OPV-001 Tabela 5.2); pare e siga: MAN-OPV-001 'Extensão das Interdições' (2,0 km pista simples), rádio obrigatório MBST VII item 11.2 p. 128"
+ },
+ "zonas": [
+  [
+   "presinalizacao",
+   -1500.0,
+   -0.0
+  ],
+  [
+   "transicao",
+   -0.0,
+   -0.0
+  ],
+  [
+   "protecao",
+   -0.0,
+   0.0
+  ],
+  [
+   "trabalho",
+   0.0,
+   120.0
+  ],
+  [
+   "saida",
+   120.0,
+   150.0
+  ]
+ ],
+ "itens": [
+  {
+   "codigo": "A-24",
+   "x_m": -1500.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1500",
+   "x_m": -1500.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 1620.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1500",
+   "x_m": 1620.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -1000.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1000",
+   "x_m": -1000.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 1120.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:1000",
+   "x_m": 1120.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -500.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:500",
+   "x_m": -500.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 620.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:500",
+   "x_m": 620.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -400.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:400",
+   "x_m": -400.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre-info",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 520.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "INFO-DIST:400",
+   "x_m": 520.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-info-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-7",
+   "x_m": -300.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-7",
+   "x_m": 420.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": -200.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:60",
+   "x_m": 320.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": -100.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "pre",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "A-24",
+   "x_m": 220.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "pre-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": 150.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "fim",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:80",
+   "x_m": 250.0,
+   "y_m": -8.2,
+   "suporte": "poste",
+   "serie": "retorno",
+   "lado": "dir",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "FIM-OBRAS",
+   "x_m": -30.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "fim-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  },
+  {
+   "codigo": "R-19:80",
+   "x_m": -130.0,
+   "y_m": 8.2,
+   "suporte": "poste",
+   "serie": "retorno-op",
+   "lado": "esq",
+   "rot": 0.0,
+   "luz": ""
+  }
+ ],
+ "pre_x": [
+  -1500.0,
+  -1000.0,
+  -500.0,
+  -400.0,
+  -300.0,
+  -200.0,
+  -100.0
+ ],
+ "pre_oposta_x": [
+  1620.0,
+  1120.0,
+  620.0,
+  520.0,
+  420.0,
+  320.0,
+  220.0
+ ],
+ "exige_radio": false,
+ "notas": [
+  "Sem ocupação da pista: proteção contra queda de material (tela ou bandeja na plataforma) e isolamento da área sob a OAE; placas de advertência e redução de velocidade no tabuleiro."
+ ],
+ "geom": {
+  "c": 0.0,
+  "n": 1,
+  "n_op": 1,
+  "w": 3.4,
+  "a": 0.8,
+  "borda_dir": -4.2,
+  "borda_pista": -3.4,
+  "filas": [],
+  "ramos": [],
+  "oc_hi": 3.4,
+  "oc_lo": -3.4,
+  "lado_fechado": "dir",
+  "y_cone": 3.4,
+  "y_ini_taper": -3.4,
+  "trab": [
+   2.8,
+   -3.4
+  ],
+  "borda_ext": -4.2
+ },
+ "quantidades": {
+  "A-24": 10,
+  "FIM-OBRAS": 2,
+  "INFO-DIST": 8,
+  "R-19": 4,
+  "R-7": 2
+ }
+}
