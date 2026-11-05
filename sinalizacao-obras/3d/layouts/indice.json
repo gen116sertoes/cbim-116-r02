@@ -292,41 +292,5 @@
   "titulo": "Passarela: manutenção sem içamento, faixa interditada sob a frente",
   "noturno": false,
   "base": null
- },
- {
-  "codigo": "CR-G01",
-  "titulo": "Emergência: sinalização inicial pela viatura de inspeção (primeira resposta)",
-  "noturno": false,
-  "base": null
- },
- {
-  "codigo": "CR-G02",
-  "titulo": "Emergência por acidente com bloqueio de faixa, pista dupla e simples (montagem padrão)",
-  "noturno": false,
-  "base": null
- },
- {
-  "codigo": "CR-G03",
-  "titulo": "Interdição total emergencial com proteção do fim de fila",
-  "noturno": false,
-  "base": null
- },
- {
-  "codigo": "CR-G04",
-  "titulo": "Erosão, afundamento ou queda de barreira na pista com pare e siga",
-  "noturno": false,
-  "base": null
- },
- {
-  "codigo": "CR-G04-N",
-  "titulo": "Erosão, afundamento ou queda de barreira na pista com pare e siga (variante noturna)",
-  "noturno": true,
-  "base": "CR-G04"
- },
- {
-  "codigo": "CR-G05",
-  "titulo": "Alagamento, queda de árvore ou carga na pista com pare e siga",
-  "noturno": false,
-  "base": null
  }
 ]
