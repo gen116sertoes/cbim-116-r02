@@ -794,5 +794,8 @@
   "SINALEIRO": 2,
   "SINALEIRO-BANDEIRA": 2,
   "TAMBOR": 10
+ },
+ "medidas_m": {
+  "BARREIRA-CONC": 220.0
  }
 }

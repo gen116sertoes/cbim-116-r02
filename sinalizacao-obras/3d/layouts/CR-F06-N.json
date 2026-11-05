@@ -1023,5 +1023,8 @@
   "TORRE-ILUM": 2,
   "VEIC-SERV": 2,
   "VIATURA-PRF": 2
+ },
+ "medidas_m": {
+  "BARREIRA-PLAST": 0.0
  }
 }

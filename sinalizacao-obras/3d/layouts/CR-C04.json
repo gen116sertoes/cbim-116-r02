@@ -986,5 +986,8 @@
   "R-7": 2,
   "SETA-LUM": 1,
   "TAMBOR": 32
+ },
+ "medidas_m": {
+  "BARREIRA-CONC": 280.0
  }
 }

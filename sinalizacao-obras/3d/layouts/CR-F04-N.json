@@ -771,5 +771,8 @@
   "PISTA-FECHADA": 2,
   "R-19": 2,
   "TAMBOR": 32
+ },
+ "medidas_m": {
+  "BARREIRA-PLAST": 0.0
  }
 }

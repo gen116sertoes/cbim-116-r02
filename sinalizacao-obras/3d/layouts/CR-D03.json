@@ -902,5 +902,8 @@
   "PMV": 1,
   "R-19": 2,
   "TAMBOR": 24
+ },
+ "medidas_m": {
+  "BARREIRA-CONC": 425.0
  }
 }

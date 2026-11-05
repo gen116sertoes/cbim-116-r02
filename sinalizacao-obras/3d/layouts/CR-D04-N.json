@@ -1783,5 +1783,9 @@
   "SETA-LUM": 1,
   "TACHA": 61,
   "TAMBOR": 25
+ },
+ "medidas_m": {
+  "BARREIRA-CONC": 640.0,
+  "TACHA": 605.0
  }
 }

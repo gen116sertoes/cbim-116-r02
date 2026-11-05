@@ -1050,5 +1050,8 @@
   "SEMAFORO": 2,
   "SINALEIRO-BANDEIRA": 2,
   "TAMBOR": 20
+ },
+ "medidas_m": {
+  "BARREIRA-CONC": 400.0
  }
 }

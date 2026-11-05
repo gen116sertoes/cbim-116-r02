@@ -2304,5 +2304,8 @@
   "SETA-LUM": 3,
   "TACHA": 50,
   "TAMBOR": 77
+ },
+ "medidas_m": {
+  "TACHA": 495.0
  }
 }

@@ -818,5 +818,8 @@
   "SEMAFORO": 2,
   "SINALEIRO-BASTAO": 2,
   "TAMBOR": 12
+ },
+ "medidas_m": {
+  "BARREIRA-CONC": 220.0
  }
 }

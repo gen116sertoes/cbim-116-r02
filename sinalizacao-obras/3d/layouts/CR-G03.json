@@ -544,5 +544,8 @@
   "SETA-LUM": 2,
   "SINALEIRO-BANDEIRA": 1,
   "VEIC-SERV": 1
+ },
+ "medidas_m": {
+  "BARREIRA-PLAST": 0.0
  }
 }

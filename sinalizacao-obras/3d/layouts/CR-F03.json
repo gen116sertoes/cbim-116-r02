@@ -821,5 +821,8 @@
   "R-19": 3,
   "SETA-LUM": 1,
   "TAMBOR": 25
+ },
+ "medidas_m": {
+  "BARREIRA-CONC": 290.0
  }
 }
