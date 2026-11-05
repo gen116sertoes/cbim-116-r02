@@ -1,0 +1,224 @@
+{
+ "A-14": {
+  "descricao": "Semáforo à frente",
+  "fonte": "MBST Vol. II; MBST Vol. VII, II p. 155 (diagramação); VII p. 121 item 9.2",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "A-15": {
+  "descricao": "Parada obrigatória à frente",
+  "fonte": "MBST Vol. VII; MBST Vol. II, VII p. 51 Fig. 7-17; II p. 156",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "A-21b": {
+  "descricao": "Estreitamento de pista à esquerda",
+  "fonte": "MBST Vol. VII; MBST Vol. II, VII p. 51 Fig. 7-18; II p. 164",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "A-21c": {
+  "descricao": "Estreitamento de pista à direita",
+  "fonte": "MBST Vol. VII; MBST Vol. II, VII p. 51 Fig. 7-18; II p. 165",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "A-24": {
+  "descricao": "Obras ou serviços",
+  "fonte": "MBST Vol. VII; MBST Vol. II, VII p. 52 Fig. 7-19; II p. 170",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "A-25": {
+  "descricao": "Mão dupla adiante",
+  "fonte": "MBST Vol. VII; MBST Vol. II, VII p. 56 Fig. 7-24; II p. 171",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "AMC": {
+  "descricao": "Veículo de proteção com atenuador de impacto",
+  "fonte": "MBST Vol. VII, VII p. 124 item 10.3 Fig. 11-3",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "BALIZADOR": {
+  "descricao": "Balizador móvel",
+  "fonte": "MBST Vol. VII; MBST Vol. VI, VII p. 96 Fig. 9-22; VI p. 156 e 157 item 10.3",
+  "dimensao": "H 0,90 m; D 0,08 m; base 0,40 m",
+  "unidade": "un"
+ },
+ "BARREIRA-CONC": {
+  "descricao": "Barreira móvel de concreto ou metálica (proteção contínua)",
+  "fonte": "MBST Vol. VII, VII p. 86 e 87 item 8.4.1 Fig. 9-12 e 9-13",
+  "dimensao": "peça 1,60 x 0,80 m",
+  "unidade": "un"
+ },
+ "BARREIRA-PLAST": {
+  "descricao": "Barreira plástica",
+  "fonte": "MBST Vol. VII; MBST Vol. VI, VII p. 99 Fig. 9-24; VI p. 162 e 163 item 10.5",
+  "dimensao": "H 0,50 a 1,00 m; comprimento 1,00 a 2,00 m",
+  "unidade": "un"
+ },
+ "CAMINHAO-MASSA": {
+  "descricao": "Caminhão de massa asfáltica",
+  "fonte": "motor/catalogo_croquis.yaml (dispositivos_minimos)",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "CONE": {
+  "descricao": "Cone",
+  "fonte": "MBST Vol. VII; MBST Vol. VI, VII p. 93 Fig. 9-20; VI p. 148 a 150 item 10.1",
+  "dimensao": "H 0,70 a 0,76 m; base 0,40 m",
+  "unidade": "un"
+ },
+ "DESVIO": {
+  "descricao": "DESVIO (seta à direita)",
+  "fonte": "MBST Vol. VII, VII p. 59 Fig. 7-29",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "DESVIO-ESQ": {
+  "descricao": "DESVIO (seta à esquerda)",
+  "fonte": "MBST Vol. VII, VII p. 59 Fig. 7-29",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "FIM-OBRAS": {
+  "descricao": "FIM DAS OBRAS",
+  "fonte": "MBST Vol. VII, VII p. 64 Fig. 7-36",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "INFO-DIST": {
+  "descricao": "Informação complementar de distância A XXX m",
+  "fonte": "MBST Vol. VII, VII p. 52 e p. 53 Fig. 7-20; p. 37 item 6.2.3 (grafia)",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "MSG": {
+  "descricao": "Placa de mensagem",
+  "fonte": "motor/croqui_layout.py (MSG:texto)",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "PINTADORA": {
+  "descricao": "Pintadora",
+  "fonte": "motor/catalogo_croquis.yaml (dispositivos_minimos)",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "PISTA-FECHADA": {
+  "descricao": "PISTA FECHADA A XXX m",
+  "fonte": "MBST Vol. VII, VII p. 61 Fig. 7-31",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "PMV": {
+  "descricao": "Painel eletrônico móvel (mensagem variável)",
+  "fonte": "MBST Vol. VII; MBST Vol. VI, VII p. 90 e 91 item 8.5.1 Fig. 9-16",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "R-19": {
+  "descricao": "Velocidade máxima permitida",
+  "fonte": "MBST Vol. VII; MBST Vol. I, VII p. 49 Fig. 7-15; I p. 192 (PDF 182)",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "R-28": {
+  "descricao": "Duplo sentido de circulação",
+  "fonte": "MBST Vol. VII; MBST Vol. I, VII p. 50 Fig. 7-16; I p. 205 (PDF 195)",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "R-7": {
+  "descricao": "Proibido ultrapassar",
+  "fonte": "MBST Vol. VII; MBST Vol. I, VII p. 47 Fig. 7-13; I p. 179 (PDF 169)",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "RECOLHEDOR": {
+  "descricao": "Veículo recolhedor de cones",
+  "fonte": "motor/catalogo_croquis.yaml (dispositivos_minimos)",
+  "dimensao": "",
+  "unidade": "un"
+ },
+ "SEMAFORO": {
+  "descricao": "Semáforo portátil",
+  "fonte": "MBST Vol. VII, VII p. 120 item 9.1 Fig. 10-1",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "SETA-LUM": {
+  "descricao": "Painel com seta luminosa",
+  "fonte": "MBST Vol. VI; MBST Vol. VII, VI p. 145 item 9.3; VII p. 91 item 8.5.2",
+  "dimensao": "altura mínima 1,50 m do solo",
+  "unidade": "un"
+ },
+ "SINALEIRO": {
+  "descricao": "Trabalhador com sinais PARE e SIGA",
+  "fonte": "MBST Vol. VII, VII p. 127 item 11.2 Fig. 12-2",
+  "dimensao": "não se aplica",
+  "unidade": "un"
+ },
+ "SINALEIRO-BANDEIRA": {
+  "descricao": "Trabalhador com bandeira sinalizadora",
+  "fonte": "MBST Vol. VII, VII p. 116 e 117 item 8.6.13 Fig. 9-49; p. 126 item 11.1",
+  "dimensao": "bandeira triangular 0,30 x 0,50 m ou quadrada 0,60 m",
+  "unidade": "un"
+ },
+ "SINALEIRO-BASTAO": {
+  "descricao": "Trabalhador com bastão luminoso vermelho",
+  "fonte": "MBST Vol. VII, VII p. 126 item 11.1",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "TACHA": {
+  "descricao": "Tacha refletiva",
+  "fonte": "MBST Vol. VII, VII p. 76 item 8.1.3",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "TAMBOR": {
+  "descricao": "Tambor (cilindro canalizador de tráfego)",
+  "fonte": "MBST Vol. VII; MBST Vol. VI, VII p. 95 Fig. 9-21; VI p. 152 a 154 item 10.2",
+  "dimensao": "H 1,05 a 1,20 m; base 0,60 a 0,70 m",
+  "unidade": "un"
+ },
+ "TAPUME": {
+  "descricao": "Tapume",
+  "fonte": "MBST Vol. VII; MBST Vol. VI, VII p. 107 e 108 item 8.6.7 Fig. 9-34; VI p. 173 item 10.7",
+  "dimensao": "módulo 2,20 m; H 1,10 a 2,20 m",
+  "unidade": "un"
+ },
+ "TORRE-ILUM": {
+  "descricao": "Torre de iluminação móvel",
+  "fonte": "IT-SIN-116 (fora do MBST), VII p. 113 item 8.6.11 (iluminação de apoio)",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "TRIANGULO": {
+  "descricao": "Triângulo de segurança",
+  "fonte": "CTB art. 46; Res. CONTRAN 36/1998 (fora do MBST), não consta do MBST",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "VEIC-SERV": {
+  "descricao": "Veículo de sinalização (serviço)",
+  "fonte": "MBST Vol. VII, VII p. 124 item 10.3 Fig. 11-3",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "VIATURA": {
+  "descricao": "Viatura de inspeção",
+  "fonte": "IT-SIN-116; MBST Vol. VII, VII p. 124 item 10.3 (luz âmbar)",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
+ "VIATURA-PRF": {
+  "descricao": "Viatura de terceiro (PRF)",
+  "fonte": "blocos/placas_svg/LEIA-ME.md",
+  "dimensao": "",
+  "unidade": "un"
+ }
+}
