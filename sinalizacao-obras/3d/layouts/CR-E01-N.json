@@ -2,6 +2,7 @@
  "codigo": "CR-E01-N",
  "titulo": "Travessia urbana: obra com passagem segura de pedestre e ciclista e tapume (variante noturna)",
  "base": "CR-E01",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-E01-N",
   "titulo": "Travessia urbana: obra com passagem segura de pedestre e ciclista e tapume (variante noturna)",
@@ -28,7 +29,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

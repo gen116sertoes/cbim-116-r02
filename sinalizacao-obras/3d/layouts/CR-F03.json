@@ -2,6 +2,7 @@
  "codigo": "CR-F03",
  "titulo": "Ponte ou viaduto de pista dupla: interdição da faixa 1 ou da faixa 2",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-F03",
   "titulo": "Ponte ou viaduto de pista dupla: interdição da faixa 1 ou da faixa 2",
@@ -34,7 +35,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

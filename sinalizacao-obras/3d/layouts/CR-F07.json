@@ -2,6 +2,7 @@
  "codigo": "CR-F07",
  "titulo": "Passarela: manutenção sem içamento, faixa interditada sob a frente",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-F07",
   "titulo": "Passarela: manutenção sem içamento, faixa interditada sob a frente",
@@ -35,7 +36,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

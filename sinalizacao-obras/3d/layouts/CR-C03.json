@@ -2,6 +2,7 @@
  "codigo": "CR-C03",
  "titulo": "Meia pista com semáforo portátil, longa duração (24 h)",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-C03",
   "titulo": "Meia pista com semáforo portátil, longa duração (24 h)",
@@ -30,7 +31,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [
@@ -959,7 +961,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": -410.0,
    "y_m": -7.1,
    "suporte": null,
@@ -969,7 +971,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": 560.0,
    "y_m": 7.1,
    "suporte": null,
@@ -1000,7 +1002,7 @@
  "exige_radio": false,
  "notas": [
   "Semáforo portátil com ciclo e limpeza em projeto; A-14 nos dois sentidos.",
-  "Sinaleiro de alerta com bandeira vermelha: mín. 200 m da obra e 100 m antes do fim da fila; cone 10 m antes de cada sinaleiro.",
+  "Homem bandeira com bandeira vermelha: mín. 200 m da obra e 100 m antes do fim da fila; cone 10 m antes de cada posto.",
   "Barreira rígida pré-moldada interligada (longa, faixa adjacente a 80 km/h); terminal não obrigatório (MBST VII 8.4.1)."
  ],
  "geom": {
@@ -1044,11 +1046,11 @@
   "BARREIRA-CONC": 40,
   "CONE": 2,
   "FIM-OBRAS": 2,
+  "HOMEM-BANDEIRA": 2,
   "INFO-DIST": 6,
   "R-19": 6,
   "R-7": 2,
   "SEMAFORO": 2,
-  "SINALEIRO-BANDEIRA": 2,
   "TAMBOR": 20
  },
  "medidas_m": {

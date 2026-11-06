@@ -1,10 +1,11 @@
 {
  "codigo": "CR-C02",
- "titulo": "Meia pista com pare e siga manual, sinaleiros nas duas pontas e rádio",
+ "titulo": "Meia pista com pare e siga manual, operadores de sinalização de parada nas duas pontas e rádio",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-C02",
-  "titulo": "Meia pista com pare e siga manual, sinaleiros nas duas pontas e rádio",
+  "titulo": "Meia pista com pare e siga manual, operadores de sinalização de parada nas duas pontas e rádio",
   "via": "simples",
   "faixas_por_sentido": 1,
   "largura_faixa_m": 3.6,
@@ -30,7 +31,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [
@@ -839,7 +841,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO",
+   "codigo": "OPERADOR-PARADA",
    "x_m": -110.0,
    "y_m": -7.1,
    "suporte": null,
@@ -849,7 +851,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO",
+   "codigo": "OPERADOR-PARADA",
    "x_m": 360.0,
    "y_m": 7.1,
    "suporte": null,
@@ -879,7 +881,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": -310.0,
    "y_m": -7.1,
    "suporte": null,
@@ -889,7 +891,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": 560.0,
    "y_m": 7.1,
    "suporte": null,
@@ -920,7 +922,7 @@
  "exige_radio": true,
  "notas": [
   "Pare e siga com rádio; até 2000 m entre os pontos de parada; espera até 15 min.",
-  "Sinaleiro de alerta com bandeira vermelha: mín. 200 m da obra e 100 m antes do fim da fila; cone 10 m antes de cada sinaleiro."
+  "Homem bandeira com bandeira vermelha: mín. 200 m da obra e 100 m antes do fim da fila; cone 10 m antes de cada posto."
  ],
  "geom": {
   "c": 0.0,
@@ -961,11 +963,11 @@
   "A-24": 4,
   "CONE": 52,
   "FIM-OBRAS": 2,
+  "HOMEM-BANDEIRA": 2,
   "INFO-DIST": 8,
+  "OPERADOR-PARADA": 2,
   "R-19": 6,
-  "R-7": 2,
-  "SINALEIRO": 2,
-  "SINALEIRO-BANDEIRA": 2
+  "R-7": 2
  },
  "medidas_m": {}
 }

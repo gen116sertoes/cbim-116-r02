@@ -2,6 +2,7 @@
  "codigo": "CR-C01",
  "titulo": "Estreitamento de pista simples sem bloqueio de sentido (faixa reduzida)",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-C01",
   "titulo": "Estreitamento de pista simples sem bloqueio de sentido (faixa reduzida)",
@@ -28,7 +29,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

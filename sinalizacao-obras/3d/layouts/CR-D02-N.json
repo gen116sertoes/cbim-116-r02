@@ -2,6 +2,7 @@
  "codigo": "CR-D02-N",
  "titulo": "Desvio para a pista oposta em contrafluxo, com travessia do canteiro (variante noturna)",
  "base": "CR-D02",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-D02-N",
   "titulo": "Desvio para a pista oposta em contrafluxo, com travessia do canteiro (variante noturna)",
@@ -28,7 +29,8 @@
   "duracao_dias": 30,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

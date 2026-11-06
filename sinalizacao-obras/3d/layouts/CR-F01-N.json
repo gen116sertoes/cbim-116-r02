@@ -2,6 +2,7 @@
  "codigo": "CR-F01-N",
  "titulo": "Ponte de pista simples sem acostamento: meia pista com pare e siga, transição antes da cabeceira (variante noturna)",
  "base": "CR-F01",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-F01-N",
   "titulo": "Ponte de pista simples sem acostamento: meia pista com pare e siga, transição antes da cabeceira (variante noturna)",
@@ -34,7 +35,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [
@@ -723,7 +725,7 @@
    "luz": "intermitente"
   },
   {
-   "codigo": "SINALEIRO-BASTAO",
+   "codigo": "HOMEM-BANDEIRA-NOITE",
    "x_m": -310.0,
    "y_m": -5.2,
    "suporte": null,
@@ -733,7 +735,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BASTAO",
+   "codigo": "HOMEM-BANDEIRA-NOITE",
    "x_m": 380.0,
    "y_m": 5.2,
    "suporte": null,
@@ -765,7 +767,7 @@
  "notas": [
   "Pare e siga com rádio; até 2000 m entre os pontos de parada; espera até 15 min.",
   "À noite: semáforo portátil nos pontos de parada e A-14 no suporte da A-15; as placas diurnas não mudam de lugar.",
-  "Sinaleiro de alerta com bastão luminoso vermelho: mín. 200 m da obra e 100 m antes do fim da fila; tambor 10 m antes de cada sinaleiro.",
+  "Homem bandeira com bastão luminoso vermelho: mín. 200 m da obra e 100 m antes do fim da fila; tambor 10 m antes de cada posto.",
   "Barreira rígida pré-moldada interligada (desnível); terminal não obrigatório (MBST VII 8.4.1).",
   "Noite: luz amarela intermitente na transição, contínua da proteção ao retorno (Vol. VI 10.11).",
   "OAE sem acostamento útil: transição antes da cabeceira."
@@ -812,11 +814,11 @@
   "ELEM-LUM-C": 26,
   "ELEM-LUM-I": 8,
   "FIM-OBRAS": 2,
+  "HOMEM-BANDEIRA-NOITE": 2,
   "INFO-DIST": 8,
   "R-19": 6,
   "R-7": 2,
   "SEMAFORO": 2,
-  "SINALEIRO-BASTAO": 2,
   "TAMBOR": 12
  },
  "medidas_m": {

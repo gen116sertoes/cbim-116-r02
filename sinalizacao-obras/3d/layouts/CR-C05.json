@@ -2,6 +2,7 @@
  "codigo": "CR-C05",
  "titulo": "Interdição total da pista simples com rota alternativa sinalizada",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-C05",
   "titulo": "Interdição total da pista simples com rota alternativa sinalizada",
@@ -28,7 +29,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

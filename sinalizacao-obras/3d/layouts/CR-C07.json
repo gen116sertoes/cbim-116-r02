@@ -2,6 +2,7 @@
  "codigo": "CR-C07",
  "titulo": "Pista simples com terceira faixa: fechamento da faixa adicional",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-C07",
   "titulo": "Pista simples com terceira faixa: fechamento da faixa adicional",
@@ -30,7 +31,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": 1
+  "faixas_sentido_oposto": 1,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

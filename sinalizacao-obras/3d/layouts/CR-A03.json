@@ -2,6 +2,7 @@
  "codigo": "CR-A03",
  "titulo": "Serviço móvel na faixa da direita, pista dupla, com dois veículos ou veículo com AMC",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-A03",
   "titulo": "Serviço móvel na faixa da direita, pista dupla, com dois veículos ou veículo com AMC",
@@ -30,7 +31,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

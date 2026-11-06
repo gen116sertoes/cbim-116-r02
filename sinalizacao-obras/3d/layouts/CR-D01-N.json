@@ -2,6 +2,7 @@
  "codigo": "CR-D01-N",
  "titulo": "Interdição de faixa por dias ou semanas com barreira, pista dupla (variante noturna)",
  "base": "CR-D01",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-D01-N",
   "titulo": "Interdição de faixa por dias ou semanas com barreira, pista dupla (variante noturna)",
@@ -30,7 +31,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

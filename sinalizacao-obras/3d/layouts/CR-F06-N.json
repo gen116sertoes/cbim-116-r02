@@ -2,6 +2,7 @@
  "codigo": "CR-F06-N",
  "titulo": "Passarela: içamento de vigas com interdição total temporária programada (bloqueio por janelas com apoio da PRF) (variante noturna)",
  "base": "CR-F06",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-F06-N",
   "titulo": "Passarela: içamento de vigas com interdição total temporária programada (bloqueio por janelas com apoio da PRF) (variante noturna)",
@@ -33,7 +34,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [
@@ -483,7 +485,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BASTAO",
+   "codigo": "HOMEM-BANDEIRA-NOITE",
    "x_m": -500.0,
    "y_m": -10.45,
    "suporte": null,
@@ -903,7 +905,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BASTAO",
+   "codigo": "HOMEM-BANDEIRA-NOITE",
    "x_m": 540.0,
    "y_m": 10.45,
    "suporte": null,
@@ -965,10 +967,10 @@
  ],
  "exige_radio": false,
  "notas": [
-  "Bloqueio: veículo com seta luminosa no fim da fila e sinaleiro de alerta com bastão luminoso no mínimo 100 m antes do último veículo, recuando com a fila (MBST VII item 11.2 a).",
+  "Bloqueio: veículo com seta luminosa no fim da fila e homem bandeira com bastão luminoso no mínimo 100 m antes do último veículo, recuando com a fila (MBST VII item 11.2 a).",
   "Bloqueio nos dois sentidos na mesma janela, com a PRF retendo o tráfego. Ninguém sob a projeção da carga suspensa.",
   "PMV móvel no início da pré-sinalização.",
-  "Noite: luz amarela intermitente na transição, contínua da proteção ao retorno (Vol. VI 10.11); torres de iluminação na frente com trabalho noturno, iluminando também o posto do sinaleiro."
+  "Noite: luz amarela intermitente na transição, contínua da proteção ao retorno (Vol. VI 10.11); torres de iluminação na frente com trabalho noturno, iluminando também o posto do sinalizador."
  ],
  "geom": {
   "c": 2.0,
@@ -1013,12 +1015,12 @@
   "BARREIRA-PLAST": 8,
   "ELEM-LUM-I": 50,
   "FIM-OBRAS": 2,
+  "HOMEM-BANDEIRA-NOITE": 2,
   "INFO-DIST": 4,
   "PISTA-FECHADA": 6,
   "PMV": 2,
   "R-19": 6,
   "SETA-LUM": 4,
-  "SINALEIRO-BASTAO": 2,
   "TAMBOR": 42,
   "TORRE-ILUM": 2,
   "VEIC-SERV": 2,

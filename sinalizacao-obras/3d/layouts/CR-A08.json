@@ -2,6 +2,7 @@
  "codigo": "CR-A08",
  "titulo": "Tapa-buraco em movimento, pista simples, com caminhão de massa e veículo de proteção",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-A08",
   "titulo": "Tapa-buraco em movimento, pista simples, com caminhão de massa e veículo de proteção",
@@ -30,7 +31,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [
@@ -109,7 +111,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": -200.0,
    "y_m": -7.1,
    "suporte": null,
@@ -119,7 +121,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": 260.0,
    "y_m": 7.1,
    "suporte": null,
@@ -136,7 +138,7 @@
  "exige_radio": false,
  "notas": [
   "A equipe trabalha entre o veículo de sinalização, a 60 m atrás, e o caminhão de massa asfáltica, à frente; o conjunto avança a cada buraco executado.",
-  "Sinaleiro com bandeira vermelha a 200 m antes da equipe e outro a 200 m da frente no sentido oposto, orientando o fluxo que passa pela faixa livre.",
+  "Homem bandeira a 200 m antes da equipe e outro a 200 m da frente no sentido oposto, orientando o fluxo que passa pela faixa livre.",
   "Serviço executado só com boa visibilidade e, de preferência, fora dos horários de pico; sem placa fixa na via."
  ],
  "geom": {
@@ -162,8 +164,8 @@
  },
  "quantidades": {
   "CAMINHAO-MASSA": 1,
+  "HOMEM-BANDEIRA": 2,
   "SETA-LUM": 1,
-  "SINALEIRO-BANDEIRA": 2,
   "VEIC-SERV": 1
  },
  "medidas_m": {}

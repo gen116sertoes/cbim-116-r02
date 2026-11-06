@@ -2,6 +2,7 @@
  "codigo": "CR-F05-N",
  "titulo": "Viaduto sobre a rodovia: serviço no tabuleiro com proteção da pista inferior (variante noturna)",
  "base": "CR-F05",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-F05-N",
   "titulo": "Viaduto sobre a rodovia: serviço no tabuleiro com proteção da pista inferior (variante noturna)",
@@ -35,7 +36,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

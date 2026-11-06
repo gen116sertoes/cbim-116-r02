@@ -2,6 +2,7 @@
  "codigo": "CR-F01",
  "titulo": "Ponte de pista simples sem acostamento: meia pista com pare e siga, transição antes da cabeceira",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-F01",
   "titulo": "Ponte de pista simples sem acostamento: meia pista com pare e siga, transição antes da cabeceira",
@@ -34,7 +35,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [
@@ -663,7 +665,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO",
+   "codigo": "OPERADOR-PARADA",
    "x_m": -110.0,
    "y_m": -5.2,
    "suporte": null,
@@ -673,7 +675,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO",
+   "codigo": "OPERADOR-PARADA",
    "x_m": 180.0,
    "y_m": 5.2,
    "suporte": null,
@@ -703,7 +705,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": -310.0,
    "y_m": -5.2,
    "suporte": null,
@@ -713,7 +715,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": 380.0,
    "y_m": 5.2,
    "suporte": null,
@@ -744,7 +746,7 @@
  "exige_radio": true,
  "notas": [
   "Pare e siga com rádio; até 2000 m entre os pontos de parada; espera até 15 min.",
-  "Sinaleiro de alerta com bandeira vermelha: mín. 200 m da obra e 100 m antes do fim da fila; cone 10 m antes de cada sinaleiro.",
+  "Homem bandeira com bandeira vermelha: mín. 200 m da obra e 100 m antes do fim da fila; cone 10 m antes de cada posto.",
   "Barreira rígida pré-moldada interligada (desnível); terminal não obrigatório (MBST VII 8.4.1).",
   "OAE sem acostamento útil: transição antes da cabeceira."
  ],
@@ -788,11 +790,11 @@
   "BARREIRA-CONC": 22,
   "CONE": 2,
   "FIM-OBRAS": 2,
+  "HOMEM-BANDEIRA": 2,
   "INFO-DIST": 8,
+  "OPERADOR-PARADA": 2,
   "R-19": 6,
   "R-7": 2,
-  "SINALEIRO": 2,
-  "SINALEIRO-BANDEIRA": 2,
   "TAMBOR": 10
  },
  "medidas_m": {

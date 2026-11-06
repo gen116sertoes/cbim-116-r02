@@ -89,6 +89,18 @@
   "dimensao": "",
   "unidade": "un"
  },
+ "HOMEM-BANDEIRA": {
+  "descricao": "Trabalhador com bandeira sinalizadora",
+  "fonte": "MBST Vol. VII, VII p. 116 e 117 item 8.6.13 Fig. 9-49; p. 126 item 11.1",
+  "dimensao": "bandeira triangular 0,30 x 0,50 m ou quadrada 0,60 m",
+  "unidade": "un"
+ },
+ "HOMEM-BANDEIRA-NOITE": {
+  "descricao": "Trabalhador com bastão luminoso vermelho",
+  "fonte": "MBST Vol. VII, VII p. 126 item 11.1",
+  "dimensao": "não fixada",
+  "unidade": "un"
+ },
  "INFO-DIST": {
   "descricao": "Informação complementar de distância A XXX m",
   "fonte": "MBST Vol. VII, VII p. 52 e p. 53 Fig. 7-20; p. 37 item 6.2.3 (grafia)",
@@ -99,6 +111,12 @@
   "descricao": "Placa de mensagem",
   "fonte": "motor/croqui_layout.py (MSG:texto)",
   "dimensao": "",
+  "unidade": "un"
+ },
+ "OPERADOR-PARADA": {
+  "descricao": "Trabalhador com sinais PARE e SIGA",
+  "fonte": "MBST Vol. VII, VII p. 127 item 11.2 Fig. 12-2",
+  "dimensao": "não se aplica",
   "unidade": "un"
  },
  "PINTADORA": {
@@ -153,24 +171,6 @@
   "descricao": "Painel com seta luminosa",
   "fonte": "MBST Vol. VI; MBST Vol. VII, VI p. 145 item 9.3; VII p. 91 item 8.5.2",
   "dimensao": "altura mínima 1,50 m do solo",
-  "unidade": "un"
- },
- "SINALEIRO": {
-  "descricao": "Trabalhador com sinais PARE e SIGA",
-  "fonte": "MBST Vol. VII, VII p. 127 item 11.2 Fig. 12-2",
-  "dimensao": "não se aplica",
-  "unidade": "un"
- },
- "SINALEIRO-BANDEIRA": {
-  "descricao": "Trabalhador com bandeira sinalizadora",
-  "fonte": "MBST Vol. VII, VII p. 116 e 117 item 8.6.13 Fig. 9-49; p. 126 item 11.1",
-  "dimensao": "bandeira triangular 0,30 x 0,50 m ou quadrada 0,60 m",
-  "unidade": "un"
- },
- "SINALEIRO-BASTAO": {
-  "descricao": "Trabalhador com bastão luminoso vermelho",
-  "fonte": "MBST Vol. VII, VII p. 126 item 11.1",
-  "dimensao": "não fixada",
   "unidade": "un"
  },
  "TACHA": {

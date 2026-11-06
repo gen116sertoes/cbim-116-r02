@@ -2,6 +2,7 @@
  "codigo": "CR-A04",
  "titulo": "Serviço contínuo em movimento no acostamento, pista dupla",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-A04",
   "titulo": "Serviço contínuo em movimento no acostamento, pista dupla",
@@ -28,7 +29,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

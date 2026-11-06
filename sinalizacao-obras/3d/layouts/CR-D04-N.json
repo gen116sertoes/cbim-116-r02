@@ -2,6 +2,7 @@
  "codigo": "CR-D04-N",
  "titulo": "Obras de ampliação por seções: faixa 1 fechada e tráfego deslocado para o acostamento reforçado (variante noturna)",
  "base": "CR-D04",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-D04-N",
   "titulo": "Obras de ampliação por seções: faixa 1 fechada e tráfego deslocado para o acostamento reforçado (variante noturna)",
@@ -30,7 +31,8 @@
   "duracao_dias": 30,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

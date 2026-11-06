@@ -2,6 +2,7 @@
  "codigo": "CR-F06",
  "titulo": "Passarela: içamento de vigas com interdição total temporária programada (bloqueio por janelas com apoio da PRF)",
  "base": null,
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-F06",
   "titulo": "Passarela: içamento de vigas com interdição total temporária programada (bloqueio por janelas com apoio da PRF)",
@@ -33,7 +34,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [
@@ -483,7 +485,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": -500.0,
    "y_m": -10.45,
    "suporte": null,
@@ -903,7 +905,7 @@
    "luz": ""
   },
   {
-   "codigo": "SINALEIRO-BANDEIRA",
+   "codigo": "HOMEM-BANDEIRA",
    "x_m": 540.0,
    "y_m": 10.45,
    "suporte": null,
@@ -945,7 +947,7 @@
  ],
  "exige_radio": false,
  "notas": [
-  "Bloqueio: veículo com seta luminosa no fim da fila e sinaleiro de alerta com bandeira no mínimo 100 m antes do último veículo, recuando com a fila (MBST VII item 11.2 a).",
+  "Bloqueio: veículo com seta luminosa no fim da fila e homem bandeira com bandeira no mínimo 100 m antes do último veículo, recuando com a fila (MBST VII item 11.2 a).",
   "Bloqueio nos dois sentidos na mesma janela, com a PRF retendo o tráfego. Ninguém sob a projeção da carga suspensa.",
   "PMV móvel no início da pré-sinalização."
  ],
@@ -992,12 +994,12 @@
   "BARREIRA-PLAST": 8,
   "CONE": 42,
   "FIM-OBRAS": 2,
+  "HOMEM-BANDEIRA": 2,
   "INFO-DIST": 4,
   "PISTA-FECHADA": 6,
   "PMV": 2,
   "R-19": 6,
   "SETA-LUM": 4,
-  "SINALEIRO-BANDEIRA": 2,
   "VEIC-SERV": 2,
   "VIATURA-PRF": 2
  },

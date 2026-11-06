@@ -2,6 +2,7 @@
  "codigo": "CR-C05-N",
  "titulo": "Interdição total da pista simples com rota alternativa sinalizada (variante noturna)",
  "base": "CR-C05",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-C05-N",
   "titulo": "Interdição total da pista simples com rota alternativa sinalizada (variante noturna)",
@@ -28,7 +29,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [

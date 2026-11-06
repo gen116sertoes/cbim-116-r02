@@ -2,6 +2,7 @@
  "codigo": "CR-D03-N",
  "titulo": "Estreitamento de faixas com redução de largura, pista dupla (variante noturna)",
  "base": "CR-D03",
+ "conjunto": "obras",
  "situacao": {
   "codigo": "CR-D03-N",
   "titulo": "Estreitamento de faixas com redução de largura, pista dupla (variante noturna)",
@@ -28,7 +29,8 @@
   "duracao_dias": null,
   "v_obra_kmh": null,
   "curva": null,
-  "faixas_sentido_oposto": null
+  "faixas_sentido_oposto": null,
+  "conjunto": "obras"
  },
  "params": {
   "presinalizacao_m": [
